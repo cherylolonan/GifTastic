@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GifTastic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="jumbotron">
+            <h1 id="title">PUPS!</h1>
+            <p id="lead">CUTENESS THE WORLD NEEDS</p>
+        </header>
+        <div class="row">
+            <div class="col-sm-8">
+                <div id="buttons-view"></div>
+            </div>
+            <div class="col-sm-4">
+                <form id="doggo-form">
+                    <label for="doggo-input"></label>
+                    <input id="add-doggo" type="submit" value="Add A Doggo">
+                    <input type="text" id="doggo-input">
+                </form>
+            </div>
+        </div>
+        <div id="gifs-view" data-state="still"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
